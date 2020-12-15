@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url(https://www.wallpapermaiden.com/wallpaper/41524/download/1920x1080/macbook-keyboard-notebook-darkness-technology.jpeg);
+}
+
+/* Style the header */
+.header {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+.button1 {
+  color: black;
+  font-size: 30px; 
+}
+.button1:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+  -webkit-transition: all 0.3s ease;  
+          transition: all 0.3s ease;
+}
+
+
+.container{
+  max-width: auto;
+  overflow: hidden;
+}
+.image{
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 900px;
+  
+}
+.para {
+  padding: 50px;
+  font-family: Arial;
+  color: red;
+  font-size: 30px;
+  float: left;
+  margin-top: 1px;
+  margin-right:500px;
+}
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		PATRICIA MELO
+	</title>
+	<link rel="stylesheet" href="F:\HTML act\Patricia\style\style.css">
+</head>
+			
+<body>
+	<div class="header">
+ 		 <h1>PATRICIA GARCIA MELO</h1>
+	</div>
+			<div class="container">
+				<div class="para">
+				HELLO !!I am <a href="https://m.facebook.com/photo.php?fbid=1011923299192288&id=100011238824140&set=a.128522494199044&source=11&ref=bookmarks"><button class="button button1">Patricia Mae Garcia Melo</button></a>, the eldest child and my youngest sister is <a href="https://m.facebook.com/photo.php?fbid=2647948755523537&id=100009253159714&set=a.1401223833529375&source=11"><button class="button button1">Kristine Mae Garcia Melo</button></a> and our parents are <a href="https://m.facebook.com/photo.php?fbid=1176909319421849&id=100013083768011&set=a.131499727296152&source=11&ref=content_filter"><button class="button button1">Mildred Garcia Melo</button></a> and <a href="https://m.facebook.com/photo.php?fbid=2657163241210006&id=100007490682688&set=a.1385027281756948&source=11&ref=content_filter"><button class="button button1">Randy Melo.</button></a> We live in <a href="https://www.google.com/maps/place/Sampaga,+Batangas/@13.7552189,121.0832449,14z/data=!3m1!4b1!4m5!3m4!1s0x33bd1abda2c6927d:0x7aa3b1d788f3d12f!8m2!3d13.7559932!4d121.099429"><button class="button button1">Sampaga West Batangas City</button></a>. I am 19 years old and currently a college student at <a href="https://www.google.com/maps/place/Batangas+State+University-Alangilan+Campus/@13.7840845,121.0743859,15z/data=!4m2!3m1!1s0x0:0x6e553c2c569f211f?sa=X&ved=2ahUKEwiWgr620c_tAhXXfXAKHZhIB1wQ_BIwCnoECBUQBQ"><button class="button button1">Batangas state University-Main II Alangilan Campus</button></a> and the course I am taking is BS information technology .I graduated senior high school at <a href="https://www.google.com/maps/place/Paharang+National+High+School/@13.753737,121.1375253,17z/data=!4m12!1m6!3m5!1s0x33bd1a71cce9bf73:0x4a9a763dc296415b!2sPaharang+National+High+School!8m2!3d13.753737!4d121.139714!3m4!1s0x33bd1a71cce9bf73:0x4a9a763dc296415b!8m2!3d13.753737!4d121.139714"><button class="button button1">Paharang Senior Highschool</button></a>. My life is not perfect my parents are separated so my sister and I are separate. My sister is on my father’s side and I am on my mother’s side. Even do my life did not become an obstacle for me. I immediately accepted our situation there are only things really maybe they are no longer okay and as their child we chose to accept it. But even so, we grew up well and our parents never neglected us. Anyway as. Their older daughter I forced to be strong for them and do my best just to be proud and reciprocate their sacrifice. This is my life is not perfect like everyone else whole and happy I do not regret this is my life and my family instead I am thankful because I have a family that supports me.
+			</div>
+			<div class="image">
+				<img src="https://lh5.googleusercontent.com/7qfc8m0SHgDd9wdJKVvM6NBfM_XbTpFv3Xmo0O6uzhJQWYko3nBYx1djUD7NMBtawBk5Uncf5IvyoxPuG961-3yeRXHuETJKm5dUqOE7xnXuwWYDAHbt=w1280">
+			</div>
+</body>
+</html>
